@@ -9,6 +9,6 @@
   "author": "Simon Pinkas",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.8.2"
+    "parcel": "^2.8.3"
   }
 }

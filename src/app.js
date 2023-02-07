@@ -1,10 +1,12 @@
 import { User } from "./User";
-
 console.log(User)
 
-// const ageOrName = 'name';
-// const age = document.querySelector('#age').addEventListener('click', () =>{})
-// const name = document.querySelector('#name')
+// const ageButton = document.getElementById('sort--age')
+// ageButton.addEventListener('click',  ()=>{
+//     const age = false;
+//     console.log(age)
+//     return age
+// })
 
 async function getusers() {
     const res = await fetch('https://randomuser.me/api/?results=20')
@@ -31,7 +33,7 @@ async function getusers() {
         })
     })
     
-    ordreAge(cleanArray)
+    ordreAlphabetique(cleanArray)
 
     cleanArray.forEach(e => {
         const user = new User(e)
@@ -61,4 +63,3 @@ function ordreAge(array){
 
     return array
 }
-
