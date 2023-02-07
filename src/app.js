@@ -2,7 +2,7 @@ import { User } from "./User";
 
 console.log(User)
 
-const ageOrName = 'name';
+// const ageOrName = 'name';
 // const age = document.querySelector('#age').addEventListener('click', () =>{})
 // const name = document.querySelector('#name')
 
